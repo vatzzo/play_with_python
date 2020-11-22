@@ -1,3 +1,24 @@
+#   MATRIX 
+
+#Write a class that can represent any 4𝑥4 real matrix. 
+#Include two functions to calculate the sum and dot product of two matrices. 
+#Next, write a program that imports this library module and use it to perform calculations.
+# You CAN'T use numpy.
+#Examples:
+#
+# matrix_1 = Matrix(4.,5.,6.,7.)
+# matrix_2 = Matrix(2.,2.,2.,1.)
+#
+# matrix_3 = matrix_2 @ matrix_1
+# matrix_4 = matrix_2 + matrix_1
+# matrix_4 = 6 + matrix_1
+# matrix_4 = matrix_1 + 6
+#
+# expand your solution to include other operations like
+# - subtraction 
+# - inversion
+# - string representation 
+
 import logging
 
 logging.basicConfig(level=logging.ERROR, format='%(levelname)-10s %(message)s')

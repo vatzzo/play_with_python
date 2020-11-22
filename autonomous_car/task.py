@@ -1,3 +1,18 @@
+# AUTONOMOUS CAR
+
+# Write a module that will simulate autonomic car.
+# The simulation is event based, an example:
+# car1 = Car()
+# car1.act(event)
+# print(car1.wheel_angle, car1.speed)
+# where event can be anything you want, i.e. :
+# `('obstacle', 10)` where `10` is a duration (time) of the event.
+##The program should:
+# - act on the event
+# - print out current steering wheel angle, and speed
+# - run in infinite loop
+# - until user breaks the loop
+
 import logging
 import random
 import time
