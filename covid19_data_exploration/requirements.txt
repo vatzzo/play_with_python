@@ -1,2 +1,5 @@
 wheel
 pandas
+xlrd
+ipykernel
+scikit-learn
